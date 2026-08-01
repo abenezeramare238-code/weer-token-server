@@ -1,0 +1,9 @@
+{
+  "name": "weer-token-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny serverless endpoint that generates Agora RTC tokens for the Weer app.",
+  "dependencies": {
+    "agora-token": "^2.0.5"
+  }
+}
