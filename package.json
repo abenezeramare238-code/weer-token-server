@@ -2,8 +2,9 @@
   "name": "weer-token-server",
   "version": "1.0.0",
   "private": true,
-  "description": "Tiny serverless endpoint that generates Agora RTC tokens for the Weer app.",
+  "description": "Tiny serverless endpoints for the Weer app: Agora RTC tokens and push notifications.",
   "dependencies": {
-    "agora-token": "^2.0.5"
+    "agora-token": "^2.0.5",
+    "firebase-admin": "^12.7.0"
   }
 }
