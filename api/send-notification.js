@@ -32,9 +32,15 @@ module.exports = async (req, res) => {
     }
 
     await admin.messaging().send({
-      token,
-      notification: { title, body },
-    });
+  token,
+  notification: { title, body },
+  android: {
+    notification: {
+      channelId: 'weer_messages',
+      visibility: 'private',
+    },
+  },
+});
 
     res.status(200).json({ success: true });
   } catch (err) {
